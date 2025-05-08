@@ -60,7 +60,16 @@ export default function Home() {
                     className="rounded-full object-cover"
                   />
                   <div>
-                    <h3 className="text-2xl font-bold text-navy">Quan-Lai Li</h3>
+                    <h3 className="text-2xl font-bold text-navy">
+                      <a 
+                        href="https://quanlai.li"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-skyblue transition-colors"
+                      >
+                        Quan-Lai Li
+                      </a>
+                    </h3>
                     <div className="space-y-1">
                       <p className="text-gray-600">Building:</p>
                       <a 
