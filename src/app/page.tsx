@@ -1,6 +1,8 @@
 import Header from '@/components/Header';
 import Image from "next/image";
-import { Youtube, Apple, Music, AppleIcon } from 'lucide-react';
+import { Music, Podcast, Youtube } from 'lucide-react';
+import { FaSpotify } from 'react-icons/fa';
+import { BsApple } from 'react-icons/bs';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 
 export default function Home() {
@@ -32,14 +34,14 @@ export default function Home() {
                   <span>Watch Now</span>
                   <Youtube className="w-6 h-6" />
                 </a>
-                
+
                 <a
                   href="#episodes"
                   className="bg-gold text-navy px-8 py-4 rounded-lg text-lg font-semibold
                     hover:bg-opacity-90 transition-all hover:scale-105 inline-flex items-center gap-2"
                 >
                   <span>Listen Now</span>
-                  <Music className="w-6 h-6" />
+                  <Podcast className="w-6 h-6" />
                 </a>
 
                 {/* <a
@@ -230,8 +232,75 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Podcast Embeds Section */}
+        <section className="container mx-auto px-4 py-20" id="episodes">
+          <h2 className="text-4xl font-bold text-center text-navy mb-16 animate-fade-up">
+            Listen to Latest Episodes
+          </h2>
+          <Tabs defaultValue="apple" className="w-full">
+            <TabsList className="grid w-full max-w-[400px] grid-cols-3 mx-auto mb-8">
+              <TabsTrigger value="apple">
+                <span className="flex items-center gap-2">
+                  <BsApple className="w-4 h-4" />
+                  Apple
+                </span>
+              </TabsTrigger>
+              <TabsTrigger value="spotify">
+                <span className="flex items-center gap-2">
+                  <FaSpotify className="w-4 h-4" />
+                  Spotify
+                </span>
+              </TabsTrigger>
+              <TabsTrigger value="youtube">
+                <span className="flex items-center gap-2">
+                  <Youtube className="w-4 h-4" />
+                  YouTube
+                </span>
+              </TabsTrigger>
+            </TabsList>
+            <TabsContent value="apple" className="mt-2">
+              <div className="flex justify-center w-full max-w-[660px] mx-auto">
+                <iframe
+                  allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+                  frameBorder="0"
+                  height="450"
+                  className="w-full rounded-xl"
+                  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                  src="https://embed.podcasts.apple.com/us/podcast/vibehacker/id1813021592"
+                />
+              </div>
+            </TabsContent>
+            <TabsContent value="spotify" className="mt-2">
+              <div className="flex justify-center w-full max-w-[660px] mx-auto">
+                <iframe
+                  className="w-full rounded-xl"
+                  src="https://open.spotify.com/embed/show/0NNCnWHwehBMYMZ3YycVbv"
+                  height="450"
+                  frameBorder="0"
+                  allowFullScreen
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                />
+              </div>
+            </TabsContent>
+            <TabsContent value="youtube" className="mt-2">
+              <div className="flex justify-center w-full max-w-[660px] mx-auto">
+                <iframe
+                  className="w-full rounded-xl"
+                  width="660"
+                  height="450"
+                  src="https://www.youtube.com/embed/QQvQdkdEgPw"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </TabsContent>
+          </Tabs>
+        </section>
+
         {/* Features Section */}
-        <section className="container mx-auto px-4 py-20">
+        <section className="bg-skyblue/10 mx-auto px-4 py-20">
           <h2 className="text-4xl font-bold text-center text-navy mb-16 animate-fade-up">
             What We Offer
           </h2>
@@ -266,75 +335,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Podcast Embeds Section */}
-        <section className="container mx-auto px-4 py-20" id="episodes">
-          <h2 className="text-4xl font-bold text-center text-navy mb-16 animate-fade-up">
-            Listen to Latest Episodes
-          </h2>
-          <Tabs defaultValue="apple" className="w-full">
-            <TabsList className="grid w-full max-w-[400px] grid-cols-3 mx-auto mb-8">
-              <TabsTrigger value="apple">
-                <span className="flex items-center gap-2">
-                  <Apple className="w-4 h-4" />
-                  Apple
-                </span>
-              </TabsTrigger>
-              <TabsTrigger value="spotify">
-                <span className="flex items-center gap-2">
-                  <Music className="w-4 h-4" />
-                  Spotify
-                </span>
-              </TabsTrigger>
-              <TabsTrigger value="youtube">
-                <span className="flex items-center gap-2">
-                  <Youtube className="w-4 h-4" />
-                  YouTube
-                </span>
-              </TabsTrigger>
-            </TabsList>
-            <TabsContent value="apple" className="mt-2">
-              <div className="flex justify-center w-full max-w-[660px] mx-auto">
-                <iframe 
-                  allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
-                  frameBorder="0" 
-                  height="450" 
-                  className="w-full rounded-xl"
-                  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
-                  src="https://embed.podcasts.apple.com/us/podcast/vibehacker/id1813021592"
-                />
-              </div>
-            </TabsContent>
-            <TabsContent value="spotify" className="mt-2">
-              <div className="flex justify-center w-full max-w-[660px] mx-auto">
-                <iframe 
-                  className="w-full rounded-xl"
-                  src="https://open.spotify.com/embed/show/0NNCnWHwehBMYMZ3YycVbv" 
-                  height="450"
-                  frameBorder="0" 
-                  allowFullScreen 
-                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                  loading="lazy"
-                />
-              </div>
-            </TabsContent>
-            <TabsContent value="youtube" className="mt-2">
-              <div className="flex justify-center w-full max-w-[660px] mx-auto">
-                <iframe 
-                  className="w-full rounded-xl"
-                  width="660"
-                  height="450"
-                  src="https://www.youtube.com/embed/QQvQdkdEgPw"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-            </TabsContent>
-          </Tabs>
-        </section>
-
         {/* CTA Section */}
-        <section className="bg-navy text-white py-20" id="follow_us">
+        {/* <section className="bg-navy text-white py-20" id="follow_us">
           <div className="container mx-auto px-4 text-center">
             <div className="animate-fade-up">
               <h2 className="text-4xl font-bold mb-6">
@@ -358,20 +360,20 @@ export default function Home() {
                   className="bg-gold text-navy px-8 py-4 rounded-lg text-lg font-semibold
                   hover:bg-opacity-90 hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
                 >
-                  <Apple className="w-6 h-6" />
+                  <BsApple className="w-6 h-6" />
                   Apple Podcasts
                 </button>
                 <button
                   className="bg-skyblue text-navy px-8 py-4 rounded-lg text-lg font-semibold
                   hover:bg-opacity-90 hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
                 >
-                  <Music className="w-6 h-6" />
+                  <FaSpotify className="w-6 h-6" />
                   Spotify
                 </button>
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
 
       {/* Footer */}
@@ -427,7 +429,6 @@ export default function Home() {
               </ul>
             </div>
 
-
             {/* Listen On */}
             <div>
               <h3 className="text-lg font-semibold mb-4">Listen On</h3>
@@ -439,7 +440,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors rounded-md hover:bg-white/10 px-3 py-2"
                   >
-                    <Apple className="w-5 h-5" />
+                    <BsApple className="w-5 h-5" />
                     Apple Podcasts
                   </a>
                 </li>
@@ -447,10 +448,10 @@ export default function Home() {
                   <a
                     href="https://open.spotify.com/show/0NNCnWHwehBMYMZ3YycVbv"
                     target="_blank"
-                    rel="noopener noreferrer" 
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors rounded-md hover:bg-white/10 px-3 py-2"
                   >
-                    <Music className="w-5 h-5" />
+                    <FaSpotify className="w-5 h-5" />
                     Spotify
                   </a>
                 </li>
@@ -458,7 +459,7 @@ export default function Home() {
                   <a
                     href="https://www.youtube.com/@VibeHackerFM"
                     target="_blank"
-                    rel="noopener noreferrer" 
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors rounded-md hover:bg-white/10 px-3 py-2"
                   >
                     <Youtube className="w-5 h-5" />
