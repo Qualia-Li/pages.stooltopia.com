@@ -2,102 +2,125 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+    <main className="min-h-screen bg-white">
+      {/* Hero Section */}
+      <section className="container mx-auto px-4 py-20">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+          <div className="lg:w-1/2 animate-fade-up">
+            <h1 className="text-5xl lg:text-7xl font-bold text-navy mb-6">
+              Welcome to <span className="text-gold">VibeHacker</span>
+            </h1>
+            <p className="text-xl text-gray-600 mb-8">
+              Join us as we explore the intersection of technology, innovation, and entrepreneurship
+              with industry leaders and visionaries.
+            </p>
+            <button className="bg-navy text-white px-8 py-4 rounded-lg text-lg font-semibold
+              hover:bg-opacity-90 transition-all hover:scale-105">
+              Listen Now
+            </button>
+          </div>
+          <div className="lg:w-1/2 animate-fade-in">
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src="/images/vibehacker_logo.png"
+              alt="VibeHacker Podcast"
+              width={600}
+              height={600}
+              className="rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+
+      {/* Hosts Section */}
+      <section className="bg-skyblue/10 py-20">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center text-navy mb-16 animate-fade-up">
+            Meet Your Hosts
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="bg-white p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300">
+              <div className="flex items-center gap-6 mb-6">
+                <div className="w-24 h-24 rounded-full bg-navy flex items-center justify-center">
+                  <span className="text-2xl text-white font-bold">QL</span>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-navy">Quan-Lai Li</h3>
+                  <p className="text-gray-600">Creator of ChatSlide.AI</p>
+                </div>
+              </div>
+              <p className="text-gray-600">
+                Tech innovator and AI enthusiast, bringing cutting-edge insights from the world of presentation technology.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300">
+              <div className="flex items-center gap-6 mb-6">
+                <div className="w-24 h-24 rounded-full bg-navy flex items-center justify-center">
+                  <span className="text-2xl text-white font-bold">NN</span>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-navy">Nil Ni</h3>
+                  <p className="text-gray-600">Creator of MakeForm.AI</p>
+                </div>
+              </div>
+              <p className="text-gray-600">
+                Form building pioneer and UX expert, sharing insights on creating seamless digital experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="container mx-auto px-4 py-20">
+        <h2 className="text-4xl font-bold text-center text-navy mb-16 animate-fade-up">
+          What We Offer
+        </h2>
+        <div className="grid md:grid-cols-3 gap-8">
+          {[
+            {
+              title: "Tech Insights",
+              description: "Deep dives into the latest technology trends and innovations"
+            },
+            {
+              title: "Startup Stories",
+              description: "Real experiences from successful entrepreneurs and founders"
+            },
+            {
+              title: "AI & Future",
+              description: "Exploring the cutting edge of artificial intelligence and its impact"
+            }
+          ].map((feature, index) => (
+            <div
+              key={index}
+              className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:scale-105 transition-all duration-300"
+            >
+              <h3 className="text-2xl font-bold text-navy mb-4">{feature.title}</h3>
+              <p className="text-gray-600">{feature.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="bg-navy text-white py-20">
+        <div className="container mx-auto px-4 text-center">
+          <div className="animate-fade-up">
+            <h2 className="text-4xl font-bold mb-6">Ready to Join the Conversation?</h2>
+            <p className="text-xl mb-8">Subscribe to our podcast and never miss an episode</p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <button className="bg-gold text-navy px-8 py-4 rounded-lg text-lg font-semibold
+                hover:bg-opacity-90 hover:scale-105 transition-all duration-300">
+                Apple Podcasts
+              </button>
+              <button className="bg-skyblue text-navy px-8 py-4 rounded-lg text-lg font-semibold
+                hover:bg-opacity-90 hover:scale-105 transition-all duration-300">
+                Spotify
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
