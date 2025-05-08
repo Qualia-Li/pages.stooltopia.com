@@ -14,10 +14,18 @@ export default function Home() {
               Join us as we explore the intersection of technology, innovation, and entrepreneurship
               with industry leaders and visionaries.
             </p>
-            <button className="bg-navy text-white px-8 py-4 rounded-lg text-lg font-semibold
-              hover:bg-opacity-90 transition-all hover:scale-105">
-              Listen Now
-            </button>
+            <a 
+              href="https://www.youtube.com/@VibeHackerFM"
+              target="_blank"
+              rel="noopener noreferrer" 
+              className="bg-navy text-white px-8 py-4 rounded-lg text-lg font-semibold
+                hover:bg-opacity-90 transition-all hover:scale-105 inline-flex items-center gap-2"
+            >
+              <span>Watch Now</span>
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 4-8 4z"/>
+              </svg>
+            </a>
           </div>
           <div className="lg:w-1/2 animate-fade-in">
             <Image
@@ -149,8 +157,20 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <div className="animate-fade-up">
             <h2 className="text-4xl font-bold mb-6">Ready to Join the Conversation?</h2>
-            <p className="text-xl mb-8">Subscribe to our podcast and never miss an episode</p>
+            <p className="text-xl mb-8">Subscribe and never miss an episode</p>
             <div className="flex flex-wrap gap-4 justify-center">
+              <a 
+                href="https://www.youtube.com/@VibeHackerFM"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#FF0000] text-white px-8 py-4 rounded-lg text-lg font-semibold
+                  hover:bg-opacity-90 hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
+              >
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 4-8 4z"/>
+                </svg>
+                YouTube
+              </a>
               <button className="bg-gold text-navy px-8 py-4 rounded-lg text-lg font-semibold
                 hover:bg-opacity-90 hover:scale-105 transition-all duration-300">
                 Apple Podcasts
