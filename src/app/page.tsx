@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Music, Podcast, Youtube } from 'lucide-react';
 import { FaSpotify } from 'react-icons/fa';
 import { BsApple } from 'react-icons/bs';
+import { FaXTwitter } from 'react-icons/fa6';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 
 export default function Home() {
@@ -431,7 +432,7 @@ export default function Home() {
 
             {/* Listen On */}
             <div>
-              <h3 className="text-lg font-semibold mb-4">Listen On</h3>
+              <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
               <ul className="space-y-3">
                 <li>
                   <a
@@ -464,6 +465,17 @@ export default function Home() {
                   >
                     <Youtube className="w-5 h-5" />
                     YouTube
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://x.com/VibehackerFM"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors rounded-md hover:bg-white/10 px-3 py-2"
+                  >
+                    <FaXTwitter className="w-5 h-5" />
+                    Twitter/X
                   </a>
                 </li>
               </ul>
