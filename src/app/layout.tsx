@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://vibehacker.fm'),
   title: "VibeHacker - Tech Innovation & AI Podcast",
   description: "Join Quan-Lai Li and Nil Ni as they explore the intersection of technology, AI, and entrepreneurship. Featuring in-depth conversations with industry leaders about ChatGPT, AI tools, and the future of tech.",
   keywords: [
