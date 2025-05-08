@@ -57,28 +57,65 @@ export default function Home() {
                 />
                 <div>
                   <h3 className="text-2xl font-bold text-navy">Quan-Lai Li</h3>
-                  <p className="text-gray-600">Creator of 
+                  <div className="space-y-1">
+                    <p className="text-gray-600">Building:</p>
                     <a 
                       href="https://chatslide.ai" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-navy hover:text-skyblue transition-colors ml-1 hover:underline"
+                      className="text-navy hover:text-skyblue transition-colors block hover:underline"
                     >
                       ChatSlide.AI
                     </a>
-                  </p>
-                  <a 
-                    href="https://x.com/quanlai_li" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-navy hover:text-skyblue transition-colors"
-                  >
-                    @quanlai_li
-                  </a>
+                    <a 
+                      href="https://googlemapstimeline.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-navy hover:text-skyblue transition-colors block hover:underline"
+                    >
+                      Google Maps Timeline
+                    </a>
+                    <a 
+                      href="https://enception.ai" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-navy hover:text-skyblue transition-colors block hover:underline"
+                    >
+                      Enception.AI
+                    </a>
+                    <div className="flex gap-2 mt-2">
+                      <a 
+                        href="https://x.com/quanlai_li" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-navy hover:text-skyblue transition-colors"
+                      >
+                        @quanlai_li
+                      </a>
+                      <span className="text-gray-400">•</span>
+                      {/* <a 
+                        href="https://x.com/chatslide_ai" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-navy hover:text-skyblue transition-colors"
+                      >
+                        @chatslide_ai
+                      </a>
+                      <span className="text-gray-400">•</span>
+                      <a 
+                        href="https://x.com/enception_ai" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-navy hover:text-skyblue transition-colors"
+                      >
+                        @enception_ai
+                      </a> */}
+                    </div>
+                  </div>
                 </div>
               </div>
               <p className="text-gray-600">
-                Tech innovator and AI enthusiast, bringing cutting-edge insights from the world of presentation technology.
+                Serial entrepreneur focused on AI-powered tools and innovative solutions.
               </p>
             </div>
 
@@ -93,28 +130,48 @@ export default function Home() {
                 />
                 <div>
                   <h3 className="text-2xl font-bold text-navy">Nil Ni</h3>
-                  <p className="text-gray-600">Creator of 
+                  <div className="space-y-1">
+                    <p className="text-gray-600">Previously at @Intuit, @CreditKarma</p>
+                    <p className="text-gray-600">Angel Squad @hustlefundvc</p>
+                    <div className="space-y-1 mt-2">
+                      <a 
+                        href="https://tarotread.ai" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-navy hover:text-skyblue transition-colors block hover:underline"
+                      >
+                        TarotRead.AI (Free)
+                      </a>
+                      <a 
+                        href="https://autofillr.com" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-navy hover:text-skyblue transition-colors block hover:underline"
+                      >
+                        Autofillr.com (Free)
+                      </a>
+                      <a 
+                        href="https://louerable.com" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-navy hover:text-skyblue transition-colors block hover:underline"
+                      >
+                        Louerable.com ($6000 ARR)
+                      </a>
+                    </div>
                     <a 
-                      href="https://makeform.ai" 
+                      href="https://x.com/_nilni" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-navy hover:text-skyblue transition-colors ml-1 hover:underline"
+                      className="text-navy hover:text-skyblue transition-colors block mt-2"
                     >
-                      MakeForm.AI
+                      @_nilni
                     </a>
-                  </p>
-                  <a 
-                    href="https://x.com/_nilni" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-navy hover:text-skyblue transition-colors"
-                  >
-                    @_nilni
-                  </a>
+                  </div>
                 </div>
               </div>
               <p className="text-gray-600">
-                Form building pioneer and UX expert, sharing insights on creating seamless digital experiences.
+                Husband, Dad of 2, and serial entrepreneur building innovative tools and platforms. Angel investor passionate about supporting early-stage startups.
               </p>
             </div>
           </div>
