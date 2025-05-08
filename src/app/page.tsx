@@ -40,12 +40,33 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-white p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300">
               <div className="flex items-center gap-6 mb-6">
-                <div className="w-24 h-24 rounded-full bg-navy flex items-center justify-center">
-                  <span className="text-2xl text-white font-bold">QL</span>
-                </div>
+                <Image
+                  src="/images/quanlai.png"
+                  alt="Quan-Lai Li"
+                  width={96}
+                  height={96}
+                  className="rounded-full object-cover"
+                />
                 <div>
                   <h3 className="text-2xl font-bold text-navy">Quan-Lai Li</h3>
-                  <p className="text-gray-600">Creator of ChatSlide.AI</p>
+                  <p className="text-gray-600">Creator of 
+                    <a 
+                      href="https://chatslide.ai" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-navy hover:text-skyblue transition-colors ml-1 hover:underline"
+                    >
+                      ChatSlide.AI
+                    </a>
+                  </p>
+                  <a 
+                    href="https://x.com/quanlai_li" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-navy hover:text-skyblue transition-colors"
+                  >
+                    @quanlai_li
+                  </a>
                 </div>
               </div>
               <p className="text-gray-600">
@@ -55,12 +76,33 @@ export default function Home() {
 
             <div className="bg-white p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300">
               <div className="flex items-center gap-6 mb-6">
-                <div className="w-24 h-24 rounded-full bg-navy flex items-center justify-center">
-                  <span className="text-2xl text-white font-bold">NN</span>
-                </div>
+                <Image
+                  src="/images/nil.jpg"
+                  alt="Nil Ni"
+                  width={96}
+                  height={96}
+                  className="rounded-full object-cover"
+                />
                 <div>
                   <h3 className="text-2xl font-bold text-navy">Nil Ni</h3>
-                  <p className="text-gray-600">Creator of MakeForm.AI</p>
+                  <p className="text-gray-600">Creator of 
+                    <a 
+                      href="https://makeform.ai" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-navy hover:text-skyblue transition-colors ml-1 hover:underline"
+                    >
+                      MakeForm.AI
+                    </a>
+                  </p>
+                  <a 
+                    href="https://x.com/_nilni" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-navy hover:text-skyblue transition-colors"
+                  >
+                    @_nilni
+                  </a>
                 </div>
               </div>
               <p className="text-gray-600">
