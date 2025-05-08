@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Image from "next/image";
+import { Youtube, Apple, Music, AppleIcon } from 'lucide-react';
 
 export default function Home() {
 
@@ -15,19 +16,24 @@ export default function Home() {
                 Welcome to <span className="text-gold">VibeHacker</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Join us as we explore the intersection of technology, innovation, and entrepreneurship
-                with industry leaders and visionaries.
+                Join us as we explore the intersection of technology,
+                innovation, and entrepreneurship with industry leaders and
+                visionaries.
               </p>
-              <a 
+              <a
                 href="https://www.youtube.com/@VibeHackerFM"
                 target="_blank"
-                rel="noopener noreferrer" 
+                rel="noopener noreferrer"
                 className="bg-navy text-white px-8 py-4 rounded-lg text-lg font-semibold
                   hover:bg-opacity-90 transition-all hover:scale-105 inline-flex items-center gap-2"
               >
                 <span>Watch Now</span>
-                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 4-8 4z"/>
+                <svg
+                  className="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 4-8 4z" />
                 </svg>
               </a>
             </div>
@@ -61,7 +67,7 @@ export default function Home() {
                   />
                   <div>
                     <h3 className="text-2xl font-bold text-navy">
-                      <a 
+                      <a
                         href="https://quanlai.li"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -72,34 +78,34 @@ export default function Home() {
                     </h3>
                     <div className="space-y-1">
                       <p className="text-gray-600">Building:</p>
-                      <a 
-                        href="https://chatslide.ai" 
-                        target="_blank" 
+                      <a
+                        href="https://chatslide.ai"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="text-navy hover:text-skyblue transition-colors block hover:underline"
                       >
                         ChatSlide.AI
                       </a>
-                      <a 
-                        href="https://googlemapstimeline.com" 
-                        target="_blank" 
+                      <a
+                        href="https://googlemapstimeline.com"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="text-navy hover:text-skyblue transition-colors block hover:underline"
                       >
                         Google Maps Timeline
                       </a>
-                      <a 
-                        href="https://enception.ai" 
-                        target="_blank" 
+                      <a
+                        href="https://enception.ai"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="text-navy hover:text-skyblue transition-colors block hover:underline"
                       >
                         Enception.AI
                       </a>
                       <div className="flex gap-2 mt-2">
-                        <a 
-                          href="https://x.com/quanlai_li" 
-                          target="_blank" 
+                        <a
+                          href="https://x.com/quanlai_li"
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="text-navy hover:text-skyblue transition-colors"
                         >
@@ -128,7 +134,8 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-600">
-                  Serial entrepreneur focused on AI-powered tools and innovative solutions.
+                  Serial entrepreneur focused on AI-powered tools and innovative
+                  solutions.
                 </p>
               </div>
 
@@ -144,37 +151,39 @@ export default function Home() {
                   <div>
                     <h3 className="text-2xl font-bold text-navy">Nil Ni</h3>
                     <div className="space-y-1">
-                      <p className="text-gray-600">Previously at @Intuit, @CreditKarma</p>
+                      <p className="text-gray-600">
+                        Previously at @Intuit, @CreditKarma
+                      </p>
                       <p className="text-gray-600">Angel Squad @hustlefundvc</p>
                       <div className="space-y-1 mt-2">
-                        <a 
-                          href="https://tarotread.ai" 
-                          target="_blank" 
+                        <a
+                          href="https://tarotread.ai"
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="text-navy hover:text-skyblue transition-colors block hover:underline"
                         >
                           TarotRead.AI (Free)
                         </a>
-                        <a 
-                          href="https://autofillr.com" 
-                          target="_blank" 
+                        <a
+                          href="https://autofillr.com"
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="text-navy hover:text-skyblue transition-colors block hover:underline"
                         >
                           Autofillr.com (Free)
                         </a>
-                        <a 
-                          href="https://louerable.com" 
-                          target="_blank" 
+                        <a
+                          href="https://louerable.com"
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="text-navy hover:text-skyblue transition-colors block hover:underline"
                         >
                           Louerable.com ($6000 ARR)
                         </a>
                       </div>
-                      <a 
-                        href="https://x.com/_nilni" 
-                        target="_blank" 
+                      <a
+                        href="https://x.com/_nilni"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="text-navy hover:text-skyblue transition-colors block mt-2"
                       >
@@ -184,7 +193,9 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-600">
-                  Husband, Dad of 2, and serial entrepreneur building innovative tools and platforms. Angel investor passionate about supporting early-stage startups.
+                  Husband, Dad of 2, and serial entrepreneur building innovative
+                  tools and platforms. Angel investor passionate about
+                  supporting early-stage startups.
                 </p>
               </div>
             </div>
@@ -200,22 +211,27 @@ export default function Home() {
             {[
               {
                 title: "Tech Insights",
-                description: "Deep dives into the latest technology trends and innovations"
+                description:
+                  "Deep dives into the latest technology trends and innovations",
               },
               {
                 title: "Startup Stories",
-                description: "Real experiences from successful entrepreneurs and founders"
+                description:
+                  "Real experiences from successful entrepreneurs and founders",
               },
               {
                 title: "AI & Future",
-                description: "Exploring the cutting edge of artificial intelligence and its impact"
-              }
+                description:
+                  "Exploring the cutting edge of artificial intelligence and its impact",
+              },
             ].map((feature, index) => (
               <div
                 key={index}
                 className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:scale-105 transition-all duration-300"
               >
-                <h3 className="text-2xl font-bold text-navy mb-4">{feature.title}</h3>
+                <h3 className="text-2xl font-bold text-navy mb-4">
+                  {feature.title}
+                </h3>
                 <p className="text-gray-600">{feature.description}</p>
               </div>
             ))}
@@ -226,27 +242,35 @@ export default function Home() {
         <section className="bg-navy text-white py-20" id="follow_us">
           <div className="container mx-auto px-4 text-center">
             <div className="animate-fade-up">
-              <h2 className="text-4xl font-bold mb-6">Ready to Join the Conversation?</h2>
-              <p className="text-xl mb-8">Subscribe and never miss an episode</p>
+              <h2 className="text-4xl font-bold mb-6">
+                Ready to Join the Conversation?
+              </h2>
+              <p className="text-xl mb-8">
+                Subscribe and never miss an episode
+              </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <a 
+                <a
                   href="https://www.youtube.com/@VibeHackerFM"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#FF0000] text-white px-8 py-4 rounded-lg text-lg font-semibold
                     hover:bg-opacity-90 hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
                 >
-                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 4-8 4z"/>
-                  </svg>
+                  <Youtube className="w-6 h-6" />
                   YouTube
                 </a>
-                <button className="bg-gold text-navy px-8 py-4 rounded-lg text-lg font-semibold
-                  hover:bg-opacity-90 hover:scale-105 transition-all duration-300">
+                <button
+                  className="bg-gold text-navy px-8 py-4 rounded-lg text-lg font-semibold
+                  hover:bg-opacity-90 hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
+                >
+                  <Apple className="w-6 h-6" />
                   Apple Podcasts
                 </button>
-                <button className="bg-skyblue text-navy px-8 py-4 rounded-lg text-lg font-semibold
-                  hover:bg-opacity-90 hover:scale-105 transition-all duration-300">
+                <button
+                  className="bg-skyblue text-navy px-8 py-4 rounded-lg text-lg font-semibold
+                  hover:bg-opacity-90 hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
+                >
+                  <Music className="w-6 h-6" />
                   Spotify
                 </button>
               </div>
@@ -263,7 +287,7 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <Image
-                  src="/image/vibehacker_logo.png"
+                  src="/images/vibehacker_logo.png"
                   alt="VibeHacker"
                   width={40}
                   height={40}
@@ -272,7 +296,8 @@ export default function Home() {
                 <span className="text-2xl font-bold">VibeHacker</span>
               </div>
               <p className="text-gray-300">
-                Exploring the intersection of technology, innovation, and entrepreneurship
+                Exploring the intersection of technology, innovation, and
+                entrepreneurship
               </p>
             </div>
 
@@ -281,65 +306,68 @@ export default function Home() {
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#hosts" className="text-gray-300 hover:text-white transition-colors">
+                  <a
+                    href="#hosts"
+                    className="text-gray-300 hover:text-white transition-colors"
+                  >
                     Our Hosts
                   </a>
                 </li>
-                <li>
-                  <a href="#episodes" className="text-gray-300 hover:text-white transition-colors">
+                {/* <li>
+                  <a
+                    href="#episodes"
+                    className="text-gray-300 hover:text-white transition-colors"
+                  >
                     Latest Episodes
                   </a>
                 </li>
                 <li>
-                  <a href="#about" className="text-gray-300 hover:text-white transition-colors">
+                  <a
+                    href="#about"
+                    className="text-gray-300 hover:text-white transition-colors"
+                  >
                     About Us
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
 
-            {/* Follow Us */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
-              <ul className="space-y-2">
-                <li>
-                  <a 
-                    href="https://www.youtube.com/@VibeHackerFM"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-white transition-colors inline-flex items-center gap-2"
-                  >
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 4-8 4z"/>
-                    </svg>
-                    YouTube
-                  </a>
-                </li>
-                <li>
-                  <a 
-                    href="https://x.com/vibehacker_fm"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-white transition-colors"
-                  >
-                    X (Twitter)
-                  </a>
-                </li>
-              </ul>
-            </div>
 
             {/* Listen On */}
             <div>
               <h3 className="text-lg font-semibold mb-4">Listen On</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-3">
                 <li>
-                  <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                  <a
+                    href="https://podcasts.apple.com/us/podcast/vibehacker/id1813021592"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors rounded-md hover:bg-white/10 px-3 py-2"
+                  >
+                    <Apple className="w-5 h-5" />
                     Apple Podcasts
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                  <a
+                    href="https://open.spotify.com/show/0NNCnWHwehBMYMZ3YycVbv"
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors rounded-md hover:bg-white/10 px-3 py-2"
+                  >
+                    <Music className="w-5 h-5" />
                     Spotify
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/@VibeHackerFM"
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors rounded-md hover:bg-white/10 px-3 py-2"
+                  >
+                    <Youtube className="w-5 h-5" />
+                    YouTube
                   </a>
                 </li>
               </ul>
