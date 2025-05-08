@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Image from "next/image";
 import { Youtube, Apple, Music, AppleIcon } from 'lucide-react';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 
 export default function Home() {
 
@@ -20,22 +21,49 @@ export default function Home() {
                 innovation, and entrepreneurship with industry leaders and
                 visionaries.
               </p>
-              <a
-                href="https://www.youtube.com/@VibeHackerFM"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-navy text-white px-8 py-4 rounded-lg text-lg font-semibold
-                  hover:bg-opacity-90 transition-all hover:scale-105 inline-flex items-center gap-2"
-              >
-                <span>Watch Now</span>
-                <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
+              <div className="flex gap-4">
+                <a
+                  href="https://www.youtube.com/@VibeHackerFM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-navy text-white px-8 py-4 rounded-lg text-lg font-semibold
+                    hover:bg-opacity-90 transition-all hover:scale-105 inline-flex items-center gap-2"
                 >
-                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 4-8 4z" />
-                </svg>
-              </a>
+                  <span>Watch Now</span>
+                  <Youtube className="w-6 h-6" />
+                </a>
+                
+                <a
+                  href="#episodes"
+                  className="bg-gold text-navy px-8 py-4 rounded-lg text-lg font-semibold
+                    hover:bg-opacity-90 transition-all hover:scale-105 inline-flex items-center gap-2"
+                >
+                  <span>Listen Now</span>
+                  <Music className="w-6 h-6" />
+                </a>
+
+                {/* <a
+                  href="https://podcasts.apple.com/us/podcast/vibehacker/id1813021592"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gold text-navy px-8 py-4 rounded-lg text-lg font-semibold
+                    hover:bg-opacity-90 transition-all hover:scale-105 inline-flex items-center gap-2"
+                >
+                  <span>Listen on Apple</span>
+                  <Apple className="w-6 h-6" />
+                </a>
+
+                <a
+                  href="https://open.spotify.com/show/0NNCnWHwehBMYMZ3YycVbv"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-skyblue text-navy px-8 py-4 rounded-lg text-lg font-semibold
+                    hover:bg-opacity-90 transition-all hover:scale-105 inline-flex items-center gap-2"
+                >
+                  <span>Listen on Spotify</span>
+                  <Music className="w-6 h-6" />
+                </a> */}
+              </div>
             </div>
             <div className="lg:w-1/2 animate-fade-in">
               <Image
@@ -236,6 +264,73 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Podcast Embeds Section */}
+        <section className="container mx-auto px-4 py-20" id="episodes">
+          <h2 className="text-4xl font-bold text-center text-navy mb-16 animate-fade-up">
+            Listen to Latest Episodes
+          </h2>
+          <Tabs defaultValue="apple" className="w-full">
+            <TabsList className="grid w-full max-w-[400px] grid-cols-3 mx-auto mb-8">
+              <TabsTrigger value="apple">
+                <span className="flex items-center gap-2">
+                  <Apple className="w-4 h-4" />
+                  Apple
+                </span>
+              </TabsTrigger>
+              <TabsTrigger value="spotify">
+                <span className="flex items-center gap-2">
+                  <Music className="w-4 h-4" />
+                  Spotify
+                </span>
+              </TabsTrigger>
+              <TabsTrigger value="youtube">
+                <span className="flex items-center gap-2">
+                  <Youtube className="w-4 h-4" />
+                  YouTube
+                </span>
+              </TabsTrigger>
+            </TabsList>
+            <TabsContent value="apple" className="mt-2">
+              <div className="flex justify-center w-full max-w-[660px] mx-auto">
+                <iframe 
+                  allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
+                  frameBorder="0" 
+                  height="450" 
+                  className="w-full rounded-xl"
+                  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+                  src="https://embed.podcasts.apple.com/us/podcast/vibehacker/id1813021592"
+                />
+              </div>
+            </TabsContent>
+            <TabsContent value="spotify" className="mt-2">
+              <div className="flex justify-center w-full max-w-[660px] mx-auto">
+                <iframe 
+                  className="w-full rounded-xl"
+                  src="https://open.spotify.com/embed/show/0NNCnWHwehBMYMZ3YycVbv" 
+                  height="450"
+                  frameBorder="0" 
+                  allowFullScreen 
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                  loading="lazy"
+                />
+              </div>
+            </TabsContent>
+            <TabsContent value="youtube" className="mt-2">
+              <div className="flex justify-center w-full max-w-[660px] mx-auto">
+                <iframe 
+                  className="w-full rounded-xl"
+                  width="660"
+                  height="450"
+                  src="https://www.youtube.com/embed/QQvQdkdEgPw"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </TabsContent>
+          </Tabs>
         </section>
 
         {/* CTA Section */}
