@@ -1,55 +1,11 @@
+import Header from '@/components/Header';
 import Image from "next/image";
 
 export default function Home() {
+
   return (
     <>
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50 border-b border-gray-100">
-        <div className="container mx-auto px-4">
-          <nav className="flex items-center justify-between h-16">
-            <a href="/" className="flex items-center gap-2">
-              <Image
-                src="/images/vibehacker_logo.png"
-                alt="VibeHacker"
-                width={32}
-                height={32}
-                className="w-8 h-8"
-              />
-              <span className="text-xl font-bold text-navy">VibeHacker</span>
-            </a>
-            <div className="flex items-center gap-6">
-              <a 
-                href="https://www.youtube.com/@VibeHackerFM"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-navy hover:text-skyblue transition-colors"
-              >
-                YouTube
-              </a>
-              <a 
-                href="#hosts"
-                className="text-navy hover:text-skyblue transition-colors"
-              >
-                Hosts
-              </a>
-              <a 
-                href="#episodes"
-                className="text-navy hover:text-skyblue transition-colors"
-              >
-                Episodes
-              </a>
-              <a 
-                href="#follow_us"
-                className="text-navy hover:text-skyblue transition-colors"
-              >
-                Follow us
-              </a>
-            </div>
-          </nav>
-        </div>
-      </header>
-
-      {/* Main Content */}
+      <Header />
       <main className="min-h-screen bg-white pt-16">
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-20">
