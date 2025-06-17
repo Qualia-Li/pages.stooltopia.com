@@ -26,13 +26,13 @@ export default function Header() {
           {/* Logo - always visible */}
           <Link href="/" className="relative z-50 flex items-center gap-2">
             <Image
-              src="/images/vibehacker_logo.png"
-              alt="VibeHacker"
+              src="/rings.webp"
+              alt="Circul Ring"
               width={32}
               height={32}
-              className="w-8 h-8"
+              className="w-8 h-8 rounded-full"
             />
-            <span className="text-xl font-bold text-navy">VibeHacker</span>
+            <span className="text-xl font-bold text-navy">Circul Ring</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -40,30 +40,23 @@ export default function Header() {
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
-                  <Link href="https://www.youtube.com/@VibeHackerFM" legacyBehavior passHref>
+                  <Link href="#features" legacyBehavior passHref>
                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                      YouTube
+                      Features
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="#hosts" legacyBehavior passHref>
+                  <Link href="#benefits" legacyBehavior passHref>
                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                      Hosts
+                      Benefits
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="#episodes" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                      Episodes
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link href="https://x.com/vibehacker_fm" legacyBehavior passHref>
-                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                      Follow us
+                  <Link href="https://circulsense.com/products/circul-ring-health-monitor" legacyBehavior passHref>
+                    <NavigationMenuLink className={`${navigationMenuTriggerStyle()} bg-navy text-white hover:bg-navy/90`}>
+                      Buy Now
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
@@ -83,32 +76,25 @@ export default function Header() {
               <SheetContent side="right" className="w-[300px] sm:w-[400px]">
                 <div className="flex flex-col gap-4 mt-8">
                   <Link 
-                    href="https://www.youtube.com/@VibeHackerFM"
+                    href="#features"
                     className="text-lg font-semibold hover:text-skyblue transition-colors"
                     onClick={() => setIsOpen(false)}
                   >
-                    YouTube
+                    Features
                   </Link>
                   <Link 
-                    href="#hosts"
+                    href="#benefits"
                     className="text-lg font-semibold hover:text-skyblue transition-colors"
                     onClick={() => setIsOpen(false)}
                   >
-                    Hosts
+                    Benefits
                   </Link>
                   <Link 
-                    href="#episodes"
-                    className="text-lg font-semibold hover:text-skyblue transition-colors"
+                    href="https://circulsense.com/products/circul-ring-health-monitor"
+                    className="text-lg font-semibold text-white bg-navy px-4 py-2 rounded-lg hover:bg-navy/90 transition-colors"
                     onClick={() => setIsOpen(false)}
                   >
-                    Episodes
-                  </Link>
-                  <Link 
-                    href="https://x.com/vibehacker_fm"
-                    className="text-lg font-semibold hover:text-skyblue transition-colors"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    Follow us
+                    Buy Now
                   </Link>
                 </div>
               </SheetContent>
