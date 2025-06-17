@@ -5,46 +5,45 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://vibehacker.fm'),
-  title: "VibeHacker - Tech Innovation & AI Podcast",
-  description: "Join Quan-Lai Li and Nil Ni as they explore the intersection of technology, AI, and entrepreneurship. Featuring in-depth conversations with industry leaders about ChatGPT, AI tools, and the future of tech.",
+  metadataBase: new URL('https://pages.circulsense.com'),
+  title: "Circul Ring - Medical-Grade Health Monitoring",
+  description: "Experience unparalleled accuracy in health tracking with Circul Ring, a medical-grade smart ring backed by over 20 published research papers. Features continuous SpO2, heart rate, sleep analysis, and temperature monitoring.",
   keywords: [
-    "tech podcast",
-    "AI podcast",
-    "ChatGPT",
-    "artificial intelligence",
-    "Quan-Lai Li",
-    "Nil Ni",
-    "ChatSlide.AI",
-    "MakeForm.AI",
-    "tech entrepreneurship",
-    "startup podcast"
+    "Circul Ring",
+    "medical-grade smart ring",
+    "health monitoring",
+    "SpO2 monitoring",
+    "heart rate tracking",
+    "sleep analysis",
+    "temperature monitoring",
+    "continuous health tracking",
+    "medical device",
+    "health tech"
   ],
   authors: [
-    { name: "Quan-Lai Li", url: "https://x.com/quanlai_li" },
-    { name: "Nil Ni", url: "https://x.com/_nilni" }
+    { name: "Quan-Lai Li", url: "https://quanlai.li" }
   ],
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://vibehacker.fm",
-    siteName: "VibeHacker",
-    title: "VibeHacker - Tech Innovation & AI Podcast",
-    description: "Tech innovation podcast exploring AI, startups, and the future of technology",
+    url: "https://pages.circulsense.com",
+    siteName: "Circul Ring",
+    title: "Circul Ring - Medical-Grade Health Monitoring",
+    description: "Medical-grade smart ring for continuous health monitoring with unparalleled accuracy",
     images: [
       {
-        url: "/image/vibehacker_logo.png",
+        url: "/images/ring_in_hand.webp",
         width: 1200,
         height: 630,
-        alt: "VibeHacker Podcast"
+        alt: "Circul Ring Health Monitor"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "VibeHacker - Tech Innovation & AI Podcast",
-    description: "Tech innovation podcast exploring AI, startups, and the future of technology",
-    images: ["/image/vibehacker_logo.png"],
+    title: "Circul Ring - Medical-Grade Health Monitoring",
+    description: "Medical-grade smart ring for continuous health monitoring with unparalleled accuracy",
+    images: ["/images/ring_in_hand.webp"],
     creator: "@quanlai_li"
   },
   robots: {
@@ -68,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://vibehacker.fm" />
+        <link rel="canonical" href="https://pages.circulsense.com" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
