@@ -2,6 +2,30 @@ import Header from '@/components/Header';
 import Image from "next/image";
 import { Activity, Heart, Shield, Star } from 'lucide-react';
 import Link from 'next/link';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Medical-Grade Smart Rings | Circul Ring",
+  description: "Discover why Circul Ring leads the medical-grade smart ring market with unmatched accuracy and comprehensive health monitoring. Backed by 20+ research papers.",
+  openGraph: {
+    title: "Best Medical-Grade Smart Rings | Circul Ring",
+    description: "Discover why Circul Ring leads the medical-grade smart ring market with unmatched accuracy and comprehensive health monitoring.",
+    images: [
+      {
+        url: "/images/ring_in_hand.webp",
+        width: 1200,
+        height: 630,
+        alt: "Circul Ring Medical Grade Smart Ring"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Medical-Grade Smart Rings | Circul Ring",
+    description: "Discover why Circul Ring leads the medical-grade smart ring market with unmatched accuracy and comprehensive health monitoring.",
+    images: ["/images/ring_in_hand.webp"]
+  }
+};
 
 export default function MedicalGradeRingsPage() {
   return (

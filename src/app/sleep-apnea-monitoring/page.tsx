@@ -2,6 +2,30 @@ import Header from '@/components/Header';
 import Image from "next/image";
 import { Activity, Moon, AlertTriangle, LineChart } from 'lucide-react';
 import Link from 'next/link';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Sleep Apnea Monitoring | Circul Ring",
+  description: "Monitor sleep apnea with medical-grade accuracy using Circul Ring's continuous SpO2 and heart rate tracking. Early detection and detailed overnight analysis.",
+  openGraph: {
+    title: "Sleep Apnea Monitoring | Circul Ring",
+    description: "Monitor sleep apnea with medical-grade accuracy using Circul Ring's continuous SpO2 and heart rate tracking.",
+    images: [
+      {
+        url: "/images/sleep.webp",
+        width: 1200,
+        height: 630,
+        alt: "Sleep Apnea Monitoring with Circul Ring"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sleep Apnea Monitoring | Circul Ring",
+    description: "Monitor sleep apnea with medical-grade accuracy using Circul Ring's continuous SpO2 and heart rate tracking.",
+    images: ["/images/sleep.webp"]
+  }
+};
 
 export default function SleepApneaPage() {
   return (

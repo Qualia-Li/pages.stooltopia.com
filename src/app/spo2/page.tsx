@@ -2,6 +2,30 @@ import Header from '@/components/Header';
 import Image from "next/image";
 import { Activity, Heart, Brain, Wind } from 'lucide-react';
 import Link from 'next/link';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Medical-Grade SpO2 Monitoring | Circul Ring",
+  description: "Experience continuous blood oxygen monitoring with unmatched accuracy. Circul Ring's SpO2 tracking is validated by over 20 published research papers for medical-grade precision.",
+  openGraph: {
+    title: "Medical-Grade SpO2 Monitoring | Circul Ring",
+    description: "Experience continuous blood oxygen monitoring with unmatched accuracy. Validated by over 20 research papers.",
+    images: [
+      {
+        url: "/images/ring_structure.webp",
+        width: 1200,
+        height: 630,
+        alt: "Circul Ring SpO2 Monitoring"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Medical-Grade SpO2 Monitoring | Circul Ring",
+    description: "Experience continuous blood oxygen monitoring with unmatched accuracy. Validated by over 20 research papers.",
+    images: ["/images/ring_structure.webp"]
+  }
+};
 
 export default function SpO2Page() {
   return (
