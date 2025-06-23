@@ -3,7 +3,7 @@ This is the blog of Circul Rings, the official website is at circulsense.com, th
 The products are Circul Gen 2: https://circulsense.com/products/circul-ring-health-monitor. 
 For the pages generated, please add more urls, and CTA button for this product. 
 Images are in the public/images folder. 
-For new pages, please put them in sitemap.xml.
+For new pages, please put them in sitemap.xml. Please use accurate date. 
 The product highlights include  (enclosed in """)
 
 """
