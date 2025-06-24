@@ -6,7 +6,7 @@ Images are in the public/images folder.
 For new pages, please put them in sitemap.xml. Please use accurate date. 
 The product highlights include  (enclosed in """)
 
-For each page, please also generate the metadata with title, description, and images. 
+For each page, please also generate the metadata with title, description, and images. Please also generate a Q & A section for each page.  
 
 """
 Circul Ring:
