@@ -2,80 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pages.circulsense.com</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://pages.circulsense.com/spo2</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pages.circulsense.com/medical-grade-smart-rings</loc>
-    <lastmod>2025-06-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pages.circulsense.com/sleep-apnea-monitoring</loc>
-    <lastmod>2025-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pages.circulsense.com/smart-ring-for-health-tracking</loc>
-    <lastmod>2025-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pages.circulsense.com/wearable-health-tracker</loc>
-    <lastmod>2025-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pages.circulsense.com/ring-for-fitness-tracking</loc>
-    <lastmod>2025-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://pages.circulsense.com/best-ring-for-health-monitoring</loc>
-    <lastmod>2025-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://pages.circulsense.com/lightweight-wearable-device</loc>
-    <lastmod>2025-06-24</lastmod>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pages.circulsense.com/discreet-health-tracker</loc>
-    <lastmod>2025-06-24</lastmod>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pages.circulsense.com/health-ring-with-app-sync</loc>
-    <lastmod>2025-06-24</lastmod>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pages.circulsense.com/lightweight-wearable-device</loc>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pages.circulsense.com/medical-grade-smart-rings</loc>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pages.circulsense.com/non-invasive-health-wearable</loc>
-    <lastmod>2025-06-24</lastmod>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pages.circulsense.com/ring-for-fitness-tracking</loc>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://pages.circulsense.com/ring-that-tracks-vitals</loc>
-    <lastmod>2025-06-24</lastmod>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-</urlset> 
+  <url>
+    <loc>https://pages.circulsense.com/sleep-apnea-monitoring</loc>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pages.circulsense.com/smart-ring-for-health-tracking</loc>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pages.circulsense.com/spo2</loc>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pages.circulsense.com/wearable-health-tracker</loc>
+    <lastmod>2025-06-24T08:38:43.467Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

@@ -2,8 +2,30 @@ import Header from '@/components/Header';
 import Image from "next/image";
 import { Heart, Activity, Moon, ThermometerSun } from 'lucide-react';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
+import Link from 'next/link';
+import fs from 'fs';
+import path from 'path';
+
+interface Page {
+  slug: string;
+  title: string;
+  ogImage: string;
+  lastmod?: string;
+}
+
+interface PagesData {
+  pages: Page[];
+  pendingPages: Page[];
+}
+
+function getPages(): PagesData {
+  const pagesJsonPath = path.join(process.cwd(), 'pages.json');
+  return JSON.parse(fs.readFileSync(pagesJsonPath, 'utf-8'));
+}
 
 export default function Home() {
+  const { pages } = getPages();
+
   return (
     <>
       <Header />
@@ -86,44 +108,37 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Benefits Section */}
+        {/* Articles Section */}
         <section className="py-20">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-center text-white mb-16">
-              Why Choose Circul Ring?
+              Learn More About Circul Ring
             </h2>
-            <div className="grid md:grid-cols-2 gap-12">
-              <div className="space-y-8">
-                <Image
-                  src="/images/ring_structure.webp"
-                  alt="Circul Ring Structure"
-                  width={500}
-                  height={500}
-                  className="rounded-2xl shadow-xl"
-                />
-                <div className="bg-black/40 p-8 rounded-2xl shadow-lg border border-white/10">
-                  <h3 className="text-2xl font-bold text-white mb-4">Medical-Grade Accuracy</h3>
-                  <p className="text-gray-300">
-                    Validated by over 20 published research papers, our ring provides therapeutically meaningful data you can trust.
-                  </p>
-                </div>
-              </div>
-
-              <div className="space-y-8">
-                <div className="bg-black/40 p-8 rounded-2xl shadow-lg border border-white/10">
-                  <h3 className="text-2xl font-bold text-white mb-4">Continuous Monitoring</h3>
-                  <p className="text-gray-300">
-                    24/7 health tracking with real-time data for early detection of potential health issues.
-                  </p>
-                </div>
-                <Image
-                  src="/images/sleep.webp"
-                  alt="Sleep Tracking"
-                  width={500}
-                  height={500}
-                  className="rounded-2xl shadow-xl"
-                />
-              </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {pages.map((page) => (
+                <Link 
+                  key={page.slug}
+                  href={`/${page.slug}`}
+                  className="bg-black/40 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 border border-white/10 overflow-hidden group"
+                >
+                  <div className="relative h-48">
+                    <Image
+                      src={page.ogImage}
+                      alt={page.title}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#8864ff] transition-colors">
+                      {page.title.replace(' | Circul Ring', '')}
+                    </h3>
+                    <p className="text-gray-400 text-sm">
+                      Last updated: {page.lastmod || new Date().toISOString().split('T')[0]}
+                    </p>
+                  </div>
+                </Link>
+              ))}
             </div>
           </div>
         </section>
