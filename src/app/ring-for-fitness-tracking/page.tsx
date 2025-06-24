@@ -186,8 +186,8 @@ export default function FitnessTrackingRingPage() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between items-center gap-6">
               <div className="flex items-center gap-4">
-                <a href="https://quanlai.li" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#8864ff] transition-colors">
-                  Created by Quan-Lai Li
+                <a href="https://enception.ai" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#8864ff] transition-colors">
+                  Created by Enception
                 </a>
                 <span className="text-white/40">•</span>
                 <a href="https://circulsense.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#8864ff] transition-colors">
@@ -195,8 +195,8 @@ export default function FitnessTrackingRingPage() {
                 </a>
               </div>
               <div className="flex items-center gap-4">
-                <a href="https://x.com/quanlai_li" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#8864ff] transition-colors">
-                  @quanlai_li
+                <a href="https://x.com/enception_ai" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#8864ff] transition-colors">
+                  @enception_ai
                 </a>
               </div>
             </div>

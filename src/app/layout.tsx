@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "health tech"
   ],
   authors: [
-    { name: "Quan-Lai Li", url: "https://quanlai.li" }
+    { name: "Enception", url: "https://enception.ai" }
   ],
   openGraph: {
     type: "website",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "Circul Ring - Medical-Grade Health Monitoring",
     description: "Medical-grade smart ring for continuous health monitoring with unparalleled accuracy",
     images: ["/images/ring_in_hand.webp"],
-    creator: "@quanlai_li"
+    creator: "@enception_ai"
   },
   robots: {
     index: true,
