@@ -1,0 +1,103 @@
+{
+  "pages": [
+    {
+      "slug": "spo2",
+      "title": "Medical-Grade SpO2 Monitoring | Circul Ring",
+      "ogImage": "/images/ring_structure.webp",
+      "lastmod": "2025-06-16"
+    },
+    {
+      "slug": "medical-grade-smart-rings",
+      "title": "Best Medical-Grade Smart Rings | Circul Ring",
+      "ogImage": "/images/ring_in_hand.webp",
+      "lastmod": "2025-06-22"
+    },
+    {
+      "slug": "sleep-apnea-monitoring",
+      "title": "Sleep Apnea Monitoring | Circul Ring",
+      "ogImage": "/images/sleep.webp",
+      "lastmod": "2025-06-24"
+    },
+    {
+      "slug": "smart-ring-for-health-tracking",
+      "title": "Smart Ring for Health Tracking | Circul Ring",
+      "ogImage": "/images/ring_in_hand.webp",
+      "lastmod": "2025-06-24"
+    },
+    {
+      "slug": "wearable-health-tracker",
+      "title": "Wearable Health Tracker | Circul Ring",
+      "ogImage": "/images/rings.webp",
+      "lastmod": "2025-06-24"
+    },
+    {
+      "slug": "ring-for-fitness-tracking",
+      "title": "Ring for Fitness Tracking | Circul Ring",
+      "ogImage": "/images/ring_structure.webp",
+      "lastmod": "2025-06-24"
+    },
+    {
+      "slug": "best-ring-for-health-monitoring",
+      "title": "Best Ring for Health Monitoring | Circul Ring",
+      "ogImage": "/images/rings.webp",
+      "lastmod": "2025-06-24"
+    },
+    {
+      "slug": "lightweight-wearable-device",
+      "title": "Lightweight Wearable Device | Circul Ring",
+      "ogImage": "/images/ring_in_hand.webp",
+      "lastmod": "2025-06-24"
+    },
+    {
+      "slug": "discreet-health-tracker",
+      "title": "Discreet Health Tracker | Circul Ring",
+      "ogImage": "/images/rings.webp",
+      "lastmod": "2025-06-24"
+    },
+    {
+      "slug": "health-ring-with-app-sync",
+      "title": "Health Ring with App Sync | Circul Ring",
+      "ogImage": "/images/ring_structure.webp",
+      "lastmod": "2025-06-24"
+    },
+    {
+      "slug": "non-invasive-health-wearable",
+      "title": "Non-Invasive Health Wearable | Circul Ring",
+      "ogImage": "/images/ring_in_hand.webp",
+      "lastmod": "2025-06-24"
+    },
+    {
+      "slug": "ring-that-tracks-vitals",
+      "title": "Ring That Tracks Vitals | Circul Ring",
+      "ogImage": "/images/ring_structure.webp",
+      "lastmod": "2025-06-24"
+    }
+  ],
+  "pendingPages": [
+    {
+      "slug": "ring-for-real-time-health-data",
+      "title": "Ring for Real-Time Health Data | Circul Ring",
+      "ogImage": "/images/ring_structure.webp"
+    },
+    {
+      "slug": "smart-ring-for-wellness-monitoring",
+      "title": "Smart Ring for Wellness Monitoring | Circul Ring",
+      "ogImage": "/images/rings.webp"
+    },
+    {
+      "slug": "daily-health-tracking-ring",
+      "title": "Daily Health Tracking Ring | Circul Ring",
+      "ogImage": "/images/ring_in_hand.webp"
+    },
+    {
+      "slug": "sleep-tracking-without-smartwatch",
+      "title": "Sleep Tracking Without Smartwatch | Circul Ring",
+      "ogImage": "/images/sleep.webp"
+    },
+    {
+      "slug": "ring-that-monitors-sleep",
+      "title": "Ring That Monitors Sleep | Circul Ring",
+      "ogImage": "/images/sleep.webp"
+    }
+  ]
+} 
