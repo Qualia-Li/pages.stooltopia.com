@@ -25,6 +25,13 @@ function getPages(): PagesData {
 
 export default function Home() {
   const { pages } = getPages();
+  
+  // Sort pages by lastmod in reverse chronological order (newest first)
+  const sortedPages = pages.sort((a, b) => {
+    const dateA = a.lastmod ? new Date(a.lastmod) : new Date(0);
+    const dateB = b.lastmod ? new Date(b.lastmod) : new Date(0);
+    return dateB.getTime() - dateA.getTime();
+  });
 
   return (
     <>
@@ -115,7 +122,7 @@ export default function Home() {
               Learn More About Circul Ring
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {pages.map((page) => (
+              {sortedPages.map((page) => (
                 <Link 
                   key={page.slug}
                   href={`/${page.slug}`}
