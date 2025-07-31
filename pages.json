@@ -71,6 +71,24 @@
       "title": "Ring That Tracks Vitals | Circul Ring",
       "ogImage": "/images/ring_structure.webp",
       "lastmod": "2025-06-24"
+    },
+    {
+      "slug": "heart-rate-monitoring",
+      "title": "Advanced Heart Rate Monitoring Ring | Circul Ring",
+      "ogImage": "/images/ring_structure.webp",
+      "lastmod": "2025-07-31"
+    },
+    {
+      "slug": "chronic-disease-management",
+      "title": "Chronic Disease Management with Smart Ring | Circul Ring",
+      "ogImage": "/images/rings.webp",
+      "lastmod": "2025-07-31"
+    },
+    {
+      "slug": "continuous-health-monitoring",
+      "title": "24/7 Continuous Health Monitoring Ring | Circul Ring",
+      "ogImage": "/images/sleep.webp",
+      "lastmod": "2025-07-31"
     }
   ],
   "pendingPages": [
