@@ -1,7 +1,7 @@
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs');
+const path = require('path');
 
-export function generateSitemap() {
+function generateSitemap() {
   // Get all page directories from src/app
   const pagesDirectory = path.join(process.cwd(), 'src', 'app');
   const pages = fs.readdirSync(pagesDirectory)
@@ -43,4 +43,6 @@ export function generateSitemap() {
   // Write sitemap to public directory
   fs.writeFileSync(path.join(process.cwd(), 'public', 'sitemap.xml'), sitemap);
   console.log('Sitemap generated successfully');
-} 
+}
+
+module.exports = { generateSitemap };

@@ -6,20 +6,20 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://pages.circulsense.com'),
-  title: "Circul Ring - Medical-Grade Health Monitoring",
-  description: "Experience unparalleled accuracy in health tracking with Circul Ring, a medical-grade smart ring backed by over 20 published research papers. Features continuous SpO2, heart rate, sleep analysis, and temperature monitoring.",
+  metadataBase: new URL('https://pages.stooltopia.com'),
+  title: "StoolTopia - Premium Ergonomic Stools for Health & Comfort",
+description: "Discover StoolTopia's innovative ergonomic stools designed for optimal posture, comfort, and productivity. Perfect for office work, home use, and active sitting. Transform your seating experience with our premium ergonomic solutions.",
   keywords: [
-    "Circul Ring",
-    "medical-grade smart ring",
-    "health monitoring",
-    "SpO2 monitoring",
-    "heart rate tracking",
-    "sleep analysis",
-    "temperature monitoring",
-    "continuous health tracking",
-    "medical device",
-    "health tech"
+    "ergonomic stools",
+    "office stools",
+    "active sitting",
+    "posture support",
+    "ergonomic seating",
+    "workplace comfort",
+    "standing desk stools",
+    "health and wellness",
+    "ergonomic design",
+    "comfortable seating"
   ],
   authors: [
     { name: "Enception", url: "https://enception.ai" }
@@ -27,24 +27,24 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://pages.circulsense.com",
-    siteName: "Circul Ring",
-    title: "Circul Ring - Medical-Grade Health Monitoring",
-    description: "Medical-grade smart ring for continuous health monitoring with unparalleled accuracy",
+    url: "https://pages.stooltopia.com",
+    siteName: "StoolTopia",
+title: "StoolTopia - Premium Ergonomic Stools for Health & Comfort",
+    description: "Premium ergonomic stools designed for optimal posture, comfort, and productivity. Transform your seating experience with StoolTopia's innovative designs.",
     images: [
       {
-        url: "/images/ring_in_hand.webp",
+        url: "/images/logo.webp",
         width: 1200,
         height: 630,
-        alt: "Circul Ring Health Monitor"
+        alt: "StoolTopia Ergonomic Stools"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Circul Ring - Medical-Grade Health Monitoring",
-    description: "Medical-grade smart ring for continuous health monitoring with unparalleled accuracy",
-    images: ["/images/ring_in_hand.webp"],
+    title: "StoolTopia - Premium Ergonomic Stools for Health & Comfort",
+    description: "Premium ergonomic stools designed for optimal posture, comfort, and productivity. Transform your seating experience with StoolTopia's innovative designs.",
+    images: ["/images/logo.webp"],
     creator: "@enception_ai"
   },
   robots: {
@@ -77,7 +77,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://pages.circulsense.com" />
+        <link rel="canonical" href="https://pages.stooltopia.com" />
         {/* Google Tag Manager */}
         <Script id="google-tag-manager" strategy="afterInteractive">
           {`

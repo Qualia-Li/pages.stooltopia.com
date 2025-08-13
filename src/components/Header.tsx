@@ -27,7 +27,7 @@ export default function Header() {
           <Link href="/" className="relative z-50 flex items-center gap-2">
             <Image
               src="/images/logo.webp"
-              alt="Circul"
+              alt="StoolTopia"
               width={128}
               height={32}
             />
@@ -38,9 +38,9 @@ export default function Header() {
             <NavigationMenu>
               <NavigationMenuList className="text-white">
                 <NavigationMenuItem>
-                  <Link href="#features" legacyBehavior passHref>
+                  <Link href="#products" legacyBehavior passHref>
                     <NavigationMenuLink className={`${navigationMenuTriggerStyle()} bg-transparent text-white hover:bg-white/10`}>
-                      Features
+                      Products
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
@@ -52,9 +52,9 @@ export default function Header() {
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="https://circulsense.com/products/circul-ring-health-monitor" legacyBehavior passHref>
+                  <Link href="https://stooltopia.com/products" legacyBehavior passHref>
                     <NavigationMenuLink className={`${navigationMenuTriggerStyle()} bg-white text-black hover:bg-white/90`}>
-                      Buy Now
+                      Shop Now
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
@@ -74,11 +74,11 @@ export default function Header() {
               <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-black text-white border-l border-white/10">
                 <div className="flex flex-col gap-4 mt-8">
                   <Link 
-                    href="#features"
+                    href="#products"
                     className="text-lg font-semibold text-white hover:text-white/80 transition-colors"
                     onClick={() => setIsOpen(false)}
                   >
-                    Features
+                    Products
                   </Link>
                   <Link 
                     href="#benefits"
@@ -88,11 +88,11 @@ export default function Header() {
                     Benefits
                   </Link>
                   <Link 
-                    href="https://circulsense.com/products/circul-ring-health-monitor"
+                    href="https://stooltopia.com/products"
                     className="text-lg font-semibold text-black bg-white px-4 py-2 rounded-lg hover:bg-white/90 transition-colors"
                     onClick={() => setIsOpen(false)}
                   >
-                    Buy Now
+                    Shop Now
                   </Link>
                 </div>
               </SheetContent>

@@ -1,19 +1,20 @@
-This is the blog of Circul Rings, the official website is at circulsense.com, the blog is at pages.circulsense.com. Dont use /blog/, since it is already indicated at the domain level. The pages url should be like this: https://pages.circulsense.com/circul-ring-health-monitor. 
+This is the blog of StoolTopia, a company specializing in ergonomic stools and seating solutions. The official website is at stooltopia.com, the blog is at pages.stooltopia.com. Don't use /blog/, since it is already indicated at the domain level. The pages url should be like this: https://pages.stooltopia.com/ergonomic-office-stool-benefits. 
 
-The products are Circul Gen 2: https://circulsense.com/products/circul-ring-health-monitor. 
-For the pages generated, please add more urls, and CTA button for this product. 
+The main products are ergonomic stools for workplaces and homes. For the pages generated, please add more urls, and CTA button for these products. 
 Images are in the public/images folder. 
 For new pages, please put them in sitemap.xml. Please use accurate date. 
-The product highlights include  (enclosed in """)
+The product highlights include (enclosed in """)
 
 For each page, please also generate the metadata with title, description, and images. Please also generate a Q & A section for each page.  
 
 """
-Circul Ring:
+StoolTopia Products:
 
-The Circul Ring stands out as a medical-grade smart ring, offering unparalleled accuracy and a strong focus on critical health metrics. It’s designed for those who need precise, therapeutically meaningful data. The Circul Ring excels in continuous blood oxygen (SpO2) monitoring, heart rate tracking, and advanced sleep analysis. It’s particularly noted for its effectiveness in sleep analysis and chronic condition management, with over 20 published papers demonstrating its accuracy. The Circul Ring provides real-time data, making it a powerful tool for identifying potential health issues early, especially for individuals with heart conditions or those needing to monitor oxygen levels. It also tracks skin temperature and activity.
+StoolTopia specializes in creating the perfect seating experience through innovative ergonomic design. Our stools combine comfort, sustainability, and cutting-edge design to provide optimal support for various activities. Whether you're working at a standing desk, practicing yoga, or need a versatile seating solution, our stools are designed to enhance your daily routine.
 
-The Circul Ring is designed for comfort and continuous wear, emphasizing its medical-grade accuracy. While specific aesthetic details are less emphasized than its functionality, its design prioritizes user comfort for prolonged monitoring. The primary health benefit of the Circul Ring lies in its medical-grade accuracy for SpO2 and heart rate monitoring, which is crucial for early detection of conditions like sleep apnea and other respiratory or cardiovascular issues. Its ability to provide therapeutically meaningful data empowers users and healthcare providers with actionable insights for better health management. The continuous tracking helps users understand their body’s patterns and proactively address health concerns.
+Our products feature adjustable heights, ergonomic contours, and premium materials that promote proper posture and reduce strain. The stools are particularly effective for office workers, fitness enthusiasts, and anyone seeking a healthier seating alternative. With a focus on both functionality and aesthetics, StoolTopia stools seamlessly integrate into modern living and working spaces.
+
+The primary benefits include improved posture, reduced back pain, increased productivity, and enhanced comfort during extended periods of sitting. Our stools are designed for continuous use, emphasizing ergonomic principles that support natural body alignment and movement.
 """
 
 Please use tailwind ui, shadcn, server side rendering. 

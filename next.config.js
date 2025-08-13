@@ -3,12 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['circulsense.com'],
+    domains: ['stooltopia.com'],
   },
   webpack: (config, { isServer }) => {
     if (isServer) {
       // Import the generate-sitemap function only on server-side
-      const { generateSitemap } = require('./src/lib/generate-sitemap.ts');
+      const { generateSitemap } = require('./src/lib/generate-sitemap.js');
       generateSitemap();
     }
     return config;
