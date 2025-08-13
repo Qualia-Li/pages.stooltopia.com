@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pages.stooltopia.com</loc>
-    <lastmod>2025-08-13T06:54:09.692Z</lastmod>
+    <lastmod>2025-08-13T07:21:06.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://pages.stooltopia.com/modern-boutique-bar-stools-australia</loc>
+    <lastmod>2025-08-13T07:21:06.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pages.stooltopia.com/velvet-bar-stools-gold-frame-australia</loc>
+    <lastmod>2025-08-13T07:21:06.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

@@ -42,7 +42,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
             <div className="lg:w-1/2 animate-fade-up">
               <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6">
-                StoolTopia: <span className="text-gold">Ergonomic</span> Seating Solutions
+                StoolTopia: <span className="text-primary">Ergonomic</span> Seating Solutions
               </h1>
               <p className="text-xl text-gray-300 mb-8">
                 Transform your workspace with our premium ergonomic stools designed for optimal posture, 
@@ -53,8 +53,8 @@ export default function Home() {
                   href="https://stooltopia.com/products"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-gold text-black px-8 py-4 rounded-lg text-lg font-semibold
-                    hover:bg-gold/90 transition-all hover:scale-105 inline-flex items-center gap-2"
+                  className="bg-primary text-black px-8 py-4 rounded-lg text-lg font-semibold
+                    hover:bg-primary/90 transition-all hover:scale-105 inline-flex items-center gap-2"
                 >
                   <span>Shop Now</span>
                   <Heart className="w-6 h-6" />
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <div className="lg:w-1/2 animate-fade-in">
               <Image
-                src="/images/logo.webp"
+                src="/images/logo.png"
                 alt="StoolTopia Ergonomic Stools"
                 width={600}
                 height={600}
@@ -81,7 +81,7 @@ export default function Home() {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="bg-black/40 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 border border-white/10">
-                <Shield className="w-12 h-12 text-gold mb-4" />
+                <Shield className="w-12 h-12 text-primary mb-4" />
                 <h3 className="text-2xl font-bold text-white mb-4">Posture Support</h3>
                 <p className="text-gray-300">
                   Ergonomic design that promotes proper spinal alignment and reduces back strain during extended sitting.
@@ -89,7 +89,7 @@ export default function Home() {
               </div>
               
               <div className="bg-black/40 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 border border-white/10">
-                <Zap className="w-12 h-12 text-gold mb-4" />
+                <Zap className="w-12 h-12 text-primary mb-4" />
                 <h3 className="text-2xl font-bold text-white mb-4">Active Sitting</h3>
                 <p className="text-gray-300">
                   Encourages natural movement and engagement of core muscles for better health and energy levels.
@@ -97,7 +97,7 @@ export default function Home() {
               </div>
 
               <div className="bg-black/40 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 border border-white/10">
-                <Award className="w-12 h-12 text-gold mb-4" />
+                <Award className="w-12 h-12 text-primary mb-4" />
                 <h3 className="text-2xl font-bold text-white mb-4">Premium Quality</h3>
                 <p className="text-gray-300">
                   Crafted with high-grade materials and sustainable practices for lasting comfort and durability.
@@ -105,7 +105,7 @@ export default function Home() {
               </div>
 
               <div className="bg-black/40 p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 border border-white/10">
-                <Users className="w-12 h-12 text-gold mb-4" />
+                <Users className="w-12 h-12 text-primary mb-4" />
                 <h3 className="text-2xl font-bold text-white mb-4">Versatile Design</h3>
                 <p className="text-gray-300">
                   Perfect for office work, home use, standing desks, and various professional environments.
@@ -174,7 +174,7 @@ export default function Home() {
                   href={`/${page.slug}`}
                   className="bg-black/40 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 border border-white/10 overflow-hidden group"
                 >
-                  <div className="relative h-48">
+                  <div className="relative h-96">
                     <Image
                       src={page.ogImage}
                       alt={page.title}
@@ -183,7 +183,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-gold transition-colors">
+                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
                       {page.title.replace(' | StoolTopia', '')}
                     </h3>
                     <p className="text-gray-400 text-sm">
@@ -197,7 +197,7 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-gold text-black py-20">
+        <section className="bg-primary text-black py-20">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold mb-8">
               Transform Your Seating Experience Today
@@ -209,7 +209,7 @@ export default function Home() {
               href="https://stooltopia.com/products"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-black text-gold px-12 py-4 rounded-lg text-lg font-semibold
+              className="bg-black text-primary px-12 py-4 rounded-lg text-lg font-semibold
                 hover:bg-black/90 transition-all hover:scale-105 inline-flex items-center gap-2"
             >
               Shop StoolTopia Stools

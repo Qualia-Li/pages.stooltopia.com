@@ -1,8 +1,31 @@
 This is the blog of StoolTopia, a company specializing in ergonomic stools and seating solutions. The official website is at stooltopia.com, the blog is at pages.stooltopia.com. Don't use /blog/, since it is already indicated at the domain level. The pages url should be like this: https://pages.stooltopia.com/ergonomic-office-stool-benefits. 
 
 The main products are ergonomic stools for workplaces and homes. For the pages generated, please add more urls, and CTA button for these products. 
-Images are in the public/images folder. 
-For new pages, please put them in sitemap.xml. Please use accurate date. 
+Images are in the public/images folder.
+They are
+brown_leather_stool_top_with_dark_wooden_legs_in_background.jpg
+beige_armchair_on_patterned_rug_against_gray_concrete_textured_wall_background.jpg
+black_table_with_vase_and_two_modern_black_and_white_chairs.jpg
+brown_round_leather_stool_with_dark_wooden_legs_and_sturdy_design.jpg
+colorful_fabric_swatches_in_various_shades_with_numbers_written_on_side.jpg
+ergonomic_design_fit_well_with_your_body_curve_and_relieve_your_fatigue.jpg
+made_of_natural_rubber_wood.jpg
+modern_bar_with_three_stools_and_warm_lighting_neutral_color_decor.jpg
+modern_kitchen_with_three_chairs_and_warm_cozy_lighting_above_bar.jpg
+modern_kitchen_with_two_stools_and_potted_plant_near_countertop.jpg
+modern_room_with_comfy_seat_art_and_minimal_furniture_design.jpg
+modern_room_with_cozy_chair_and_minimalist_decor_on_rug.jpg
+modern_white_chair_with_dark_wood_frame_and_matching_throw_pillow.jpg
+modern_wooden_bar_stool_with_leather_seat_and_gold_details.jpg
+orange_and_white_chairs_at_minimalist_kitchen_counter_with_hanging_lamps.jpg
+simple_wooden_chair_on_light_colored_floor_with_minimal_design.jpg
+stack_of_colored_fabric_with_numbers_and_finger_holding_top_piece.jpg
+white_chair_with_pillow_near_table_and_vintage_radio_in_room.jpg
+wooden_bar_stool_with_curved_seat_and_minimalist_design_steps.jpg
+wooden_modern_bar_stool_with_curved_seat_and_sturdy_leg_design.jpg
+Please properly use the images in the public/images folder for your pages. 
+
+For new pages, please put them in sitemap.xml. Please use accurate date. Please also move them from pendingPages to pages in pages.json.
 The product highlights include (enclosed in """)
 
 For each page, please also generate the metadata with title, description, and images. Please also generate a Q & A section for each page.  

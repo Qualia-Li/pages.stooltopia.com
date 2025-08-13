@@ -26,7 +26,7 @@ export default function Header() {
           {/* Logo - always visible */}
           <Link href="/" className="relative z-50 flex items-center gap-2">
             <Image
-              src="/images/logo.webp"
+              src="/images/logo.png"
               alt="StoolTopia"
               width={128}
               height={32}
