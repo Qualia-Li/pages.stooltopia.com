@@ -41,3 +41,5 @@ The primary benefits include improved posture, reduced back pain, increased prod
 """
 
 Please use tailwind ui, shadcn, server side rendering. 
+
+Use text-muted-foreground for text color on light backgrounds. And please use more square (in terms of aspect ration) images. 
