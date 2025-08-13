@@ -31,7 +31,7 @@ export default function ModernBoutiqueBarStoolsPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Modern Boutique <span className="text-primary">Bar Stools</span> Australia
+                Modern Boutique <span className="text-muted-foreground">Bar Stools</span> Australia
               </h1>
               <p className="text-xl text-gray-600 mb-8">
                 Elevate your space with our curated collection of premium boutique bar stools. 

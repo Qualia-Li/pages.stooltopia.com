@@ -31,7 +31,7 @@ export default function OutdoorTeakRopeBarStoolPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Outdoor Teak Rope Bar Stool with <span className="text-primary">Waterproof Cushion</span> Australia
+                Outdoor Teak Rope Bar Stool with <span className="text-muted-foreground">Waterproof Cushion</span> Australia
               </h1>
               <p className="text-xl text-gray-600 mb-8">
                 Experience outdoor living at its finest with our premium teak rope bar stools. 
@@ -155,13 +155,14 @@ export default function OutdoorTeakRopeBarStoolPage() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <Image
-                src="/images/wooden_modern_bar_stool_with_curved_seat_and_sturdy_leg_design.jpg"
-                alt="Teak rope bar stool"
-                width={400}
-                height={300}
-                className="w-full h-64 object-cover"
-              />
+              <div className="relative w-full h-64">
+                <Image
+                  src="/images/wooden_modern_bar_stool_with_curved_seat_and_sturdy_leg_design.jpg"
+                  alt="Teak rope bar stool"
+                  fill
+                  className="object-contain"
+                />
+              </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Classic Teak Rope</h3>
                 <p className="text-gray-600 mb-4">
